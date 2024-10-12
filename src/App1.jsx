@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useCallback } from "react";
 
-function App() {
+function App1() {
   const [length, setLength] = useState(10);
   const [numAllow, setNumAllow] = useState(true);
   const [charAllow, setCharAllow] = useState(false);
@@ -103,4 +103,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
